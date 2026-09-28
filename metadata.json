@@ -1,0 +1,6 @@
+{
+  "name": "Kanel Florist",
+  "description": "Premium flower shop providing bouquets and floral arrangements at Strehlgasse 2, 8001 Zürich, Switzerland.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

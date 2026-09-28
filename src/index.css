@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-plum: #220E24;
+    --color-plum-light: #341838;
+    --color-coral: #D9654E;
+    --color-peach: #F8DFD4;
+    --color-peach-light: #FDF3EE;
+    --color-ivory: #FAF7F2;
+    --color-ivory-dark: #EFE8DD;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Cormorant Garamond', Garamond, Georgia, serif;
+  }
+
+  .font-sans {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Editorial typography tweaks */
+.editorial-display {
+  letter-spacing: -0.03em;
+  line-height: 0.95;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #E0D3C3;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D9654E;
+}
